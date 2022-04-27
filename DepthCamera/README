@@ -1,0 +1,10 @@
+To get around the 100MB limits on GitHub we have to use zip command line to package things... so opencv2 4.5.0 is ready for you but you must use the following command to reconstruct the framework. BUMMER!
+
+RECONSTRUCTION:
+zip -s 0 opencv2.framework.zip --out opencv2.framework.unsplit.zip
+
+
+ZIP AS 99 megabyte Fragments:
+ zip -r -s 99m opencv2.framework.zip opencv2.framework/
+
+ 
