@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D41AC1A42819D630003D0370 /* libopencv_core.4.5.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D41AC1A32819D630003D0370 /* libopencv_core.4.5.5.dylib */; };
-		D41AC1A72819D64A003D0370 /* libopencv_highgui.4.5.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D41AC1A52819D64A003D0370 /* libopencv_highgui.4.5.5.dylib */; };
-		D41AC1A82819D64A003D0370 /* libopencv_imgproc.4.5.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D41AC1A62819D64A003D0370 /* libopencv_imgproc.4.5.5.dylib */; };
-		D41AC1A92819D73D003D0370 /* libopencv_core.4.5.5.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = D41AC1A32819D630003D0370 /* libopencv_core.4.5.5.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		D41AC1AA2819D742003D0370 /* libopencv_imgproc.4.5.5.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = D41AC1A62819D64A003D0370 /* libopencv_imgproc.4.5.5.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		D41AC1AB2819D745003D0370 /* libopencv_highgui.4.5.5.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = D41AC1A52819D64A003D0370 /* libopencv_highgui.4.5.5.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		D4CCFF9728188F8700451D15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CCFF9628188F8700451D15 /* AppDelegate.m */; };
 		D4CCFF9A28188F8700451D15 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = D4CCFF9928188F8700451D15 /* ViewController.mm */; };
 		D4CCFF9C28188F8800451D15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4CCFF9B28188F8800451D15 /* Assets.xcassets */; };
@@ -20,11 +14,13 @@
 		D4CCFFA128188F8800451D15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CCFFA028188F8800451D15 /* main.m */; };
 		D4CCFFAF2818BE6600451D15 /* libdepthai-core.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CCFFAE2818BE6600451D15 /* libdepthai-core.dylib */; };
 		D4CCFFB02818BF6F00451D15 /* libdepthai-core.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4CCFFAE2818BE6600451D15 /* libdepthai-core.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		D4CCFFB22818BF7800451D15 /* depthai.hpp in Sources */ = {isa = PBXBuildFile; fileRef = D4CCFFB12818BF7800451D15 /* depthai.hpp */; };
 		D4CCFFB62818D7F800451D15 /* libusb-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CCFFB52818D7F800451D15 /* libusb-1.0.0.dylib */; };
 		D4CCFFB82818D80F00451D15 /* libusb-1.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4CCFFB52818D7F800451D15 /* libusb-1.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		D4CCFFBA2818DA9B00451D15 /* libdepthai-opencv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CCFFB92818DA9B00451D15 /* libdepthai-opencv.dylib */; };
-		D4CCFFBB2818DAB000451D15 /* libdepthai-opencv.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4CCFFB92818DA9B00451D15 /* libdepthai-opencv.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D4E7B5062A7231D500A346EC /* libdepthai-opencv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E7B5042A7231D500A346EC /* libdepthai-opencv.dylib */; };
+		D4E7B50B2A72326800A346EC /* libopencv_highgui.4.8.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E7B5082A72326800A346EC /* libopencv_highgui.4.8.0.dylib */; };
+		D4E7B50C2A72326800A346EC /* libopencv_core.4.8.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E7B5092A72326800A346EC /* libopencv_core.4.8.0.dylib */; };
+		D4E7B50D2A72326800A346EC /* libopencv_imgproc.4.8.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E7B50A2A72326800A346EC /* libopencv_imgproc.4.8.0.dylib */; };
+		D4E7B50E2A72329700A346EC /* libdepthai-opencv.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4E7B5042A7231D500A346EC /* libdepthai-opencv.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,11 +31,8 @@
 			dstSubfolderSpec = 10;
 			files = (
 				D4CCFFB82818D80F00451D15 /* libusb-1.0.0.dylib in CopyFiles */,
-				D41AC1AB2819D745003D0370 /* libopencv_highgui.4.5.5.dylib in CopyFiles */,
-				D41AC1AA2819D742003D0370 /* libopencv_imgproc.4.5.5.dylib in CopyFiles */,
-				D41AC1A92819D73D003D0370 /* libopencv_core.4.5.5.dylib in CopyFiles */,
-				D4CCFFBB2818DAB000451D15 /* libdepthai-opencv.dylib in CopyFiles */,
 				D4CCFFB02818BF6F00451D15 /* libdepthai-core.dylib in CopyFiles */,
+				D4E7B50E2A72329700A346EC /* libdepthai-opencv.dylib in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,9 +40,7 @@
 
 /* Begin PBXFileReference section */
 		D41AC1A12819D5A0003D0370 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
-		D41AC1A32819D630003D0370 /* libopencv_core.4.5.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_core.4.5.5.dylib; sourceTree = "<group>"; };
-		D41AC1A52819D64A003D0370 /* libopencv_highgui.4.5.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_highgui.4.5.5.dylib; sourceTree = "<group>"; };
-		D41AC1A62819D64A003D0370 /* libopencv_imgproc.4.5.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_imgproc.4.5.5.dylib; sourceTree = "<group>"; };
+		D41FA32B291B16CA003D2F22 /* depthai.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = depthai.hpp; sourceTree = "<group>"; };
 		D4CCFF9228188F8700451D15 /* DepthCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DepthCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4CCFF9528188F8700451D15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D4CCFF9628188F8700451D15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,9 +51,11 @@
 		D4CCFFA028188F8800451D15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D4CCFFA228188F8800451D15 /* DepthCamera.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DepthCamera.entitlements; sourceTree = "<group>"; };
 		D4CCFFAE2818BE6600451D15 /* libdepthai-core.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libdepthai-core.dylib"; sourceTree = "<group>"; };
-		D4CCFFB12818BF7800451D15 /* depthai.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = depthai.hpp; sourceTree = "<group>"; };
 		D4CCFFB52818D7F800451D15 /* libusb-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libusb-1.0.0.dylib"; sourceTree = "<group>"; };
-		D4CCFFB92818DA9B00451D15 /* libdepthai-opencv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libdepthai-opencv.dylib"; path = "../libdepthai-opencv.dylib"; sourceTree = "<group>"; };
+		D4E7B5042A7231D500A346EC /* libdepthai-opencv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libdepthai-opencv.dylib"; sourceTree = "<group>"; };
+		D4E7B5082A72326800A346EC /* libopencv_highgui.4.8.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_highgui.4.8.0.dylib; sourceTree = "<group>"; };
+		D4E7B5092A72326800A346EC /* libopencv_core.4.8.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_core.4.8.0.dylib; sourceTree = "<group>"; };
+		D4E7B50A2A72326800A346EC /* libopencv_imgproc.4.8.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_imgproc.4.8.0.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,12 +63,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D41AC1A72819D64A003D0370 /* libopencv_highgui.4.5.5.dylib in Frameworks */,
-				D41AC1A82819D64A003D0370 /* libopencv_imgproc.4.5.5.dylib in Frameworks */,
+				D4E7B50B2A72326800A346EC /* libopencv_highgui.4.8.0.dylib in Frameworks */,
 				D4CCFFAF2818BE6600451D15 /* libdepthai-core.dylib in Frameworks */,
+				D4E7B50C2A72326800A346EC /* libopencv_core.4.8.0.dylib in Frameworks */,
 				D4CCFFB62818D7F800451D15 /* libusb-1.0.0.dylib in Frameworks */,
-				D41AC1A42819D630003D0370 /* libopencv_core.4.5.5.dylib in Frameworks */,
-				D4CCFFBA2818DA9B00451D15 /* libdepthai-opencv.dylib in Frameworks */,
+				D4E7B5062A7231D500A346EC /* libdepthai-opencv.dylib in Frameworks */,
+				D4E7B50D2A72326800A346EC /* libopencv_imgproc.4.8.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +78,7 @@
 		D4CCFF8928188F8700451D15 = {
 			isa = PBXGroup;
 			children = (
-				D4CCFFB12818BF7800451D15 /* depthai.hpp */,
+				D41FA32B291B16CA003D2F22 /* depthai.hpp */,
 				D4CCFF9428188F8700451D15 /* DepthCamera */,
 				D4CCFF9328188F8700451D15 /* Products */,
 				D4CCFFE7281906D700451D15 /* Frameworks */,
@@ -108,14 +101,14 @@
 				D4CCFF9828188F8700451D15 /* ViewController.h */,
 				D4CCFF9928188F8700451D15 /* ViewController.mm */,
 				D4CCFF9B28188F8800451D15 /* Assets.xcassets */,
-				D4CCFF9D28188F8800451D15 /* Main.storyboard */,
 				D4CCFFA028188F8800451D15 /* main.m */,
+				D4CCFF9D28188F8800451D15 /* Main.storyboard */,
 				D4CCFFA228188F8800451D15 /* DepthCamera.entitlements */,
-				D41AC1A52819D64A003D0370 /* libopencv_highgui.4.5.5.dylib */,
-				D41AC1A62819D64A003D0370 /* libopencv_imgproc.4.5.5.dylib */,
-				D41AC1A32819D630003D0370 /* libopencv_core.4.5.5.dylib */,
-				D4CCFFB92818DA9B00451D15 /* libdepthai-opencv.dylib */,
+				D4E7B5092A72326800A346EC /* libopencv_core.4.8.0.dylib */,
+				D4E7B5082A72326800A346EC /* libopencv_highgui.4.8.0.dylib */,
+				D4E7B50A2A72326800A346EC /* libopencv_imgproc.4.8.0.dylib */,
 				D4CCFFAE2818BE6600451D15 /* libdepthai-core.dylib */,
+				D4E7B5042A7231D500A346EC /* libdepthai-opencv.dylib */,
 				D4CCFFB52818D7F800451D15 /* libusb-1.0.0.dylib */,
 			);
 			path = DepthCamera;
@@ -201,7 +194,6 @@
 			files = (
 				D4CCFF9A28188F8700451D15 /* ViewController.mm in Sources */,
 				D4CCFFA128188F8800451D15 /* main.m in Sources */,
-				D4CCFFB22818BF7800451D15 /* depthai.hpp in Sources */,
 				D4CCFF9728188F8700451D15 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,10 +329,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = DepthCamera/DepthCamera.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development: Rudy Aramayo (R2287HQBC8)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 975CAGD5EW;
 				ENABLE_HARDENED_RUNTIME = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -368,11 +362,13 @@
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
 				SYSTEM_HEADER_SEARCH_PATHS = (
 					"/Users/rob/dev/depthai-core/include",
-					/opt/homebrew/Cellar/opencv/4.5.5/include/opencv4,
+					/opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4,
 					"/Users/rob/dev/depthai-core/shared/depthai-shared/include",
 					"/Users/rob/dev/depthai-core/shared/depthai-shared/3rdparty",
 					"/Users/rob/dev/depthai-core/shared/depthai-bootloader-shared/include",
 					"/Users/rob/dev/XLink-master/include/",
+					/Users/rob/dev/libnop/include,
+					"/Users/rob/dev/json-develop/include",
 				);
 			};
 			name = Debug;
@@ -385,10 +381,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = DepthCamera/DepthCamera.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development: Rudy Aramayo (R2287HQBC8)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = 975CAGD5EW;
 				ENABLE_HARDENED_RUNTIME = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -416,11 +414,13 @@
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
 				SYSTEM_HEADER_SEARCH_PATHS = (
 					"/Users/rob/dev/depthai-core/include",
-					/opt/homebrew/Cellar/opencv/4.5.5/include/opencv4,
+					/opt/homebrew/Cellar/opencv/4.8.0_1/include/opencv4,
 					"/Users/rob/dev/depthai-core/shared/depthai-shared/include",
 					"/Users/rob/dev/depthai-core/shared/depthai-shared/3rdparty",
 					"/Users/rob/dev/depthai-core/shared/depthai-bootloader-shared/include",
 					"/Users/rob/dev/XLink-master/include/",
+					/Users/rob/dev/libnop/include,
+					"/Users/rob/dev/json-develop/include",
 				);
 			};
 			name = Release;
