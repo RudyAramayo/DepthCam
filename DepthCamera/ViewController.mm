@@ -20,7 +20,7 @@ std::shared_ptr<dai::Pipeline> createPipeline() {
 
     camRgb->setPreviewSize(1920/2.0, 1080/2.0);
     camRgb->setBoardSocket(dai::CameraBoardSocket::CAM_A);
-    camRgb->setResolution(dai::ColorCameraProperties::SensorResolution::THE_12_MP);
+    camRgb->setResolution(dai::ColorCameraProperties::SensorResolution::THE_1080_P);
     camRgb->setInterleaved(false);
 
     // Create output
